@@ -1,0 +1,93 @@
+body {
+  background: #ffffff url(../img/main-bg.jpg) no-repeat;
+}
+
+p.birdfly1 {
+  width: 150px;
+  height: 100px;
+  position: relative;
+  animation-name: bird1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bird1 {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+
+  50% {
+    left: 200px;
+    top: 0px;
+  }
+
+  75% {
+    right: 200px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+p.birdfly2 {
+  width: 150px;
+  height: 100px;
+  position: relative;
+  animation-name: bird2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bird2 {
+  0% {
+    left: 200px;
+    top: 0px;
+  }
+
+  25% {
+    left: 0px;
+    top: 0px;
+  }
+
+  50% {
+    left: 0px;
+    top: 0px;
+  }
+
+  75% {
+    right: 0px;
+    top: 0px;
+  }
+
+  100% {
+    left: 200px;
+    top: 0px;
+  }
+}
+
+.mytree {
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 20px;
+  border: 4px solid #494949 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+}
+
+.mytree:hover {
+  color: #ffffff !important;
+  background: #f6b93b;
+  border-color: #f6b93b !important;
+  transition: all 0.4s ease 0s;
+}
